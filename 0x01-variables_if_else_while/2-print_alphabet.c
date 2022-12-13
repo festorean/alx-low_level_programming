@@ -1,18 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
  * main - print lower case
  *
  * Return: 0
 */
+
 int main(void)
 {
-	int ch 'a';
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
+}
+
+
